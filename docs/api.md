@@ -56,7 +56,7 @@ x19为端游服务器，g79为手游服务器，但少部分资源位置错误�
 分析：出现h5和Web字样，可能与内置浏览器有关，数据内容为日期形式，可能与版本过期检测有关，暂时未发现可利用场景。  
 包括[cdnversion/expr_h5version.json](https://x19.update.netease.com/cdnversion/expr_h5version.json)、[cdnversion/obt_h5version.json](https://x19.update.netease.com/cdnversion/obt_h5version.json)、[cdnversion/qa_h5version.json](https://x19.update.netease.com/cdnversion/qa_h5version.json)、[cdnversion/sim_h5version.json](https://x19.update.netease.com/cdnversion/sim_h5version.json)、[cdnversionv2/obt_h5version.json](https://x19.update.netease.com/cdnversionv2/obt_h5version.json)、[cdnversionv2/qa_h5version.json](https://x19.update.netease.com/cdnversionv2/qa_h5version.json)，内容格式类似但数据不同，但暂时无法确认其具体作用场景。
 #### 3、聊天服务器[chatserver.list](https://x19.update.netease.com/chatserver.list)
-分析：与身份验证服务器类似，暂时未发现可利用场景。
+分析：与身份验证服务器类似，暂时未发现可利用场景。  
 也包括[chatserver_expr.list](https://x19.update.netease.com/chatserver_expr.list)、[chatserver_gaiya.list](https://x19.update.netease.com/chatserver_gaiya.list)、[chatserver_qa.list](https://x19.update.netease.com/chatserver_qa.list)、[chatserver_sim.list](https://x19.update.netease.com/chatserver_sim.list)，内容格式类似但数据不同，但暂时无法确认其具体作用场景。
 #### 4、连接服务器（linkserver）
 内容预览：
@@ -82,12 +82,22 @@ x19为端游服务器，g79为手游服务器，但少部分资源位置错误�
 包括[linkserver_expr.list](https://x19.update.netease.com/linkserver_expr.list)、[linkserver_gaiya.list](https://x19.update.netease.com/linkserver_gaiya.list)、[linkserver_qa.list](https://x19.update.netease.com/linkserver_qa.list)、[linkserver_sim.list](https://x19.update.netease.com/linkserver_sim.list)，内容格式类似但数据不同，但暂时无法确认其具体作用场景。
 #### 5、更新服务器（重要）
 分析：包括较新版本的版本号和下载链接等信息，用处很大！  
-[pl/x19_java_patchlist](https://x19.update.netease.com/pl/x19_java_patchlist)：端游启动器正式版。  
-[pl/x19_patch_list_debug](https://x19.update.netease.com/pl/x19_patch_list_debug)：端游启动器（疑似）内部调试版本，与正式版为同一应用，服务器互通可正常使用，与启动器有细小差异。  
-[pl/x19_dev_launcher_patchlist](https://x19.update.netease.com/pl/x19_dev_launcher_patchlist):端游启动器（疑似）开发者启动器/早期测试版，现有未知加密无法下载。  
-[pl/PC4399_x19_java_patchlist](https://x19.update.netease.com/pl/PC4399_x19_java_patchlist)：端游启动器4399渠道服正式版。  
-[pl/PC4399_x19_patch_list_debug](https://x19.update.netease.com/pl/PC4399_x19_patch_list_debug)：端游启动器4399渠道服（疑似）内部调试版本。  
-[pl/A50SdkCn_x19_java_patchlist](https://x19.update.netease.com/pl/A50SdkCn_x19_java_patchlist)：端游启动器发烧平台版本正式版。  
-[pl/A50SdkCn_x19_patch_list_debug](https://x19.update.netease.com/pl/A50SdkCn_x19_patch_list_debug)：端游启动器发烧平台版本（疑似）内部调试版本。  
-[pl/mcstudio_release_patchlist](https://x19.update.netease.com/pl/mcstudio_release_patchlist)：端游开发者启动器正式版。  
-[pl/mclauncher_tool_patchlist](https://x19.update.netease.com/pl/mclauncher_tool_patchlist)：我的世界修复工具正式版，一个18年被废弃的启动器修复工具。
+* [pl/x19_java_patchlist](https://x19.update.netease.com/pl/x19_java_patchlist)：端游启动器正式版。  
+* [pl/x19_patch_list_debug](https://x19.update.netease.com/pl/x19_patch_list_debug)：端游启动器（疑似）内部调试版本，与正式版为同一应用，服务器互通可正常使用，与启动器有细小差异。  
+* [pl/x19_dev_launcher_patchlist](https://x19.update.netease.com/pl/x19_dev_launcher_patchlist)：端游启动器（疑似）开发者启动器/早期测试版，现有未知加密无法下载。  
+* [pl/PC4399_x19_java_patchlist](https://x19.update.netease.com/pl/PC4399_x19_java_patchlist)：端游启动器4399渠道服正式版。  
+* [pl/PC4399_x19_patch_list_debug](https://x19.update.netease.com/pl/PC4399_x19_patch_list_debug)：端游启动器4399渠道服（疑似）内部调试版本。  
+* [pl/A50SdkCn_x19_java_patchlist](https://x19.update.netease.com/pl/A50SdkCn_x19_java_patchlist)：端游启动器发烧平台版本正式版。  
+* [pl/A50SdkCn_x19_patch_list_debug](https://x19.update.netease.com/pl/A50SdkCn_x19_patch_list_debug)：端游启动器发烧平台版本（疑似）内部调试版本。  
+* [pl/mcstudio_release_patchlist](https://x19.update.netease.com/pl/mcstudio_release_patchlist)：端游开发者启动器正式版。  
+* [pl/mclauncher_tool_patchlist](https://x19.update.netease.com/pl/mclauncher_tool_patchlist)：我的世界修复工具正式版，一个18年被废弃的启动器修复工具。
+#### 6、更新日志（重要）
+分析：为更新窗口中的更新日志，用于显示更新内容，用处很大！  
+* MCUpdate_版本号.txt：更新日志，格式为纯文本，内容为端游启动器正式版更新内容，但在远古版本也显示开发者启动器的更新内容。示例：[MCUpdate_1.14.20.txt](https://x19.update.netease.com/MCUpdate_1.14.20.txt)。
+* game_notice/MCStudio_版本号.txt：更新日志，格式为纯文本，内容为开发者启动器正式版更新内容。示例：[game_notice/MCStudio_1.1.28.txt](https://x19.update.netease.com/game_notice/MCStudio_1.1.28.txt)。
+#### 7、服务器列表（重要）
+分析：为服务器列表，用于显示启动器内服务器列表，可以用来寻找更多未知Api，用处很大！12348号Api中的多个名称类似但功能不同的Api可能来自本Api的不同细分。  
+包括[serverlist/release.json](https://x19.update.netease.com/serverlist/release.json)、[serverlist/qa.0.4.json](https://x19.update.netease.com/serverlist/qa.0.4.json)、[serverlist/experience.0.4.json](https://x19.update.netease.com/serverlist/experience.0.4.json)。
+#### 8、传送目标服务器[transferserver.list](https://x19.update.netease.com/transferserver.list)
+分析：可能与服务器跳转有关，暂时未发现可利用场景。  
+也包括[transferserver_expr.list](https://x19.update.netease.com/transferserver_expr.list)、[transferserver_gaiya.list](https://x19.update.netease.com/transferserver_gaiya.list)、[transferserver_qa.list](https://x19.update.netease.com/transferserver_qa.list)（现已失效）、[transferserver_sim.list](https://x19.update.netease.com/transferserver_sim.list)。
