@@ -80,3 +80,14 @@ x19为端游服务器，g79为手游服务器，但少部分资源位置错误�
 ```
 分析：与身份验证服务器类似，但多出status等信息，可能与连接状态有关，暂时未发现可利用场景。
 包括[linkserver_expr.list](https://x19.update.netease.com/linkserver_expr.list)、[linkserver_gaiya.list](https://x19.update.netease.com/linkserver_gaiya.list)、[linkserver_qa.list](https://x19.update.netease.com/linkserver_qa.list)、[linkserver_sim.list](https://x19.update.netease.com/linkserver_sim.list)，内容格式类似但数据不同，但暂时无法确认其具体作用场景。
+#### 5、更新服务器（重要）
+分析：包括较新版本的版本号和下载链接等信息，用处很大！  
+[pl/x19_java_patchlist](https://x19.update.netease.com/pl/x19_java_patchlist)：端游启动器正式版。  
+[pl/x19_patch_list_debug](https://x19.update.netease.com/pl/x19_patch_list_debug)：端游启动器（疑似）内部调试版本，与正式版为同一应用，服务器互通可正常使用，与启动器有细小差异。  
+[pl/x19_dev_launcher_patchlist](https://x19.update.netease.com/pl/x19_dev_launcher_patchlist):端游启动器（疑似）开发者启动器/早期测试版，现有未知加密无法下载。  
+[pl/PC4399_x19_java_patchlist](https://x19.update.netease.com/pl/PC4399_x19_java_patchlist)：端游启动器4399渠道服正式版。  
+[pl/PC4399_x19_patch_list_debug](https://x19.update.netease.com/pl/PC4399_x19_patch_list_debug)：端游启动器4399渠道服（疑似）内部调试版本。  
+[pl/A50SdkCn_x19_java_patchlist](https://x19.update.netease.com/pl/A50SdkCn_x19_java_patchlist)：端游启动器发烧平台版本正式版。  
+[pl/A50SdkCn_x19_patch_list_debug](https://x19.update.netease.com/pl/A50SdkCn_x19_patch_list_debug)：端游启动器发烧平台版本（疑似）内部调试版本。  
+[pl/mcstudio_release_patchlist](https://x19.update.netease.com/pl/mcstudio_release_patchlist)：端游开发者启动器正式版。  
+[pl/mclauncher_tool_patchlist](https://x19.update.netease.com/pl/mclauncher_tool_patchlist)：我的世界修复工具正式版，一个18年被废弃的启动器修复工具。
