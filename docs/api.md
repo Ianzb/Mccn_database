@@ -45,7 +45,7 @@ x19为端游服务器，g79为手游服务器，但少部分资源位置错误�
 ```
 分析：应为登录身份验证服务器，暂时未发现可利用场景。  
 也包括[authserver_expr.list](https://x19.update.netease.com/authserver_expr.list)、[authserver_gaiya.list](https://x19.update.netease.com/authserver_gaiya.list)、[authserver_qa.list](https://x19.update.netease.com/authserver_qa.list)、[authserver_sim.list](https://x19.update.netease.com/authserver_sim.list)，内容格式相同但数据不同，但暂时无法确认其具体作用场景。
-#### 2、CDN服务器
+#### 2、CDN版本（cdnversion）
 内容预览：
 ```
 {
@@ -57,4 +57,26 @@ x19为端游服务器，g79为手游服务器，但少部分资源位置错误�
 包括[cdnversion/expr_h5version.json](https://x19.update.netease.com/cdnversion/expr_h5version.json)、[cdnversion/obt_h5version.json](https://x19.update.netease.com/cdnversion/obt_h5version.json)、[cdnversion/qa_h5version.json](https://x19.update.netease.com/cdnversion/qa_h5version.json)、[cdnversion/sim_h5version.json](https://x19.update.netease.com/cdnversion/sim_h5version.json)、[cdnversionv2/obt_h5version.json](https://x19.update.netease.com/cdnversionv2/obt_h5version.json)、[cdnversionv2/qa_h5version.json](https://x19.update.netease.com/cdnversionv2/qa_h5version.json)，内容格式类似但数据不同，但暂时无法确认其具体作用场景。
 #### 3、聊天服务器[chatserver.list](https://x19.update.netease.com/chatserver.list)
 分析：与身份验证服务器类似，暂时未发现可利用场景。
-也包括[chatserver_expr.list](https://x19.update.netease.com/chatserver_expr.list)、[chatserver_gaiya.list](https://x19.update.netease.com/chatserver_gaiya.list)、[chatserver_qa.list](https://x19.update.netease.com/chatserver_qa.list)、[chatserver_sim.list](https://x19.update.netease.com/chatserver_sim.list)，内容格式相同但数据不同，但暂时无法确认其具体作用场景。
+也包括[chatserver_expr.list](https://x19.update.netease.com/chatserver_expr.list)、[chatserver_gaiya.list](https://x19.update.netease.com/chatserver_gaiya.list)、[chatserver_qa.list](https://x19.update.netease.com/chatserver_qa.list)、[chatserver_sim.list](https://x19.update.netease.com/chatserver_sim.list)，内容格式类似但数据不同，但暂时无法确认其具体作用场景。
+#### 4、连接服务器（linkserver）
+内容预览：
+```
+[
+    {
+    	"status": 1,
+        "ip": "45.253.179.72",
+        "ServerType": "dockerA",
+        "id": 902,
+        "port": 10000
+    },
+    {
+         "status": 0,
+        "ip": "45.253.179.72",
+        "ServerType": "dockerB",
+        "id": 1902,
+        "port": 10001    
+    }
+]
+```
+分析：与身份验证服务器类似，但多出status等信息，可能与连接状态有关，暂时未发现可利用场景。
+包括[linkserver_expr.list](https://x19.update.netease.com/linkserver_expr.list)、[linkserver_gaiya.list](https://x19.update.netease.com/linkserver_gaiya.list)、[linkserver_qa.list](https://x19.update.netease.com/linkserver_qa.list)、[linkserver_sim.list](https://x19.update.netease.com/linkserver_sim.list)，内容格式类似但数据不同，但暂时无法确认其具体作用场景。
