@@ -5,13 +5,11 @@
 为显示整洁，每个Api服务器内容放入单独文件，未特殊说明的Api均可直接访问。
 
 ## Api服务器：
-[g79.gdl](https://g79.gdl.netease.com)  
-[g79.update](https://g79.update.netease.com/)  
-[g79.gph](https://g79.gph.netease.com)  
-[x19.gdl](https://x19.gdl.netease.com)  
-[x19.update](https://x19.update.netease.com/)  
-[x19.gph](https://x19.gph.netease.com/)  
-其中，gdl为安装包下载服务器（download），update为更新信息服务器，gph为更新补丁包服务器（patch）。  
-x19为端游服务器，g79为手游服务器，但少部分资源位置错误。  
-可使用互联网档案馆（archive.org）的前缀搜索功能查看Api服务器的大部分常用Api。  
-g79.gdl也作为开发者工作台内部部分资源服务器使用。
+* [g79.gdl.netease.com](https://g79.gdl.netease.com/)：手游版下载服务器，开发者工作台资源服务器使用。
+* [g79.update.netease.com](https://g79.update.netease.com/)：手游版更新服务器。
+* [g79.gph.netease.com](https://g79.gph.netease.com/)：手游版补丁服务器。
+* [x19.gdl.netease.com](https://x19.gdl.netease.com/)：端游版下载服务器。
+* [x19.update.netease.com](https://x19.update.netease.com/)：端游版更新服务器。  
+* [x19.gph.netease.com](https://x19.gph.netease.com/)：端游版补丁服务器。
+* [mc-launcher.webapp.163.com](https://mc-launcher.webapp.163.com/)：开发者平台网页端api。
+* [g79apigatewayobt.nie.netease.co](https://g79apigatewayobt.nie.netease.com/)：手机分享的网页端资源中心api。
