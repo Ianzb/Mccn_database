@@ -1,0 +1,38 @@
+{
+    "frames": {
+        "img_activity_movie_linkage_bg_left.png": {
+            "frame": "{{2,2},{1504,830}}",
+            "offset": "{0,0}",
+            "rotated": false,
+            "sourceColorRect": "{{1,0},{1504,830}}",
+            "sourceSize": "{1506,830}"
+        },
+        "img_activity_movie_linkage_bg_pic.png": {
+            "frame": "{{126,1286},{792,664}}",
+            "offset": "{0,0}",
+            "rotated": false,
+            "sourceColorRect": "{{0,0},{792,664}}",
+            "sourceSize": "{792,664}"
+        },
+        "img_activity_movie_linkage_title.png": {
+            "frame": "{{1508,2},{1282,178}}",
+            "offset": "{0,0}",
+            "rotated": true,
+            "sourceColorRect": "{{0,1},{1282,178}}",
+            "sourceSize": "{1282,180}"
+        },
+        "img_activity_movie_linkage_title_new.png": {
+            "frame": "{{2,1286},{676,122}}",
+            "offset": "{0,0}",
+            "rotated": true,
+            "sourceColorRect": "{{0,0},{676,122}}",
+            "sourceSize": "{676,122}"
+        }
+    },
+    "metadata": {
+        "format": 2,
+        "realTextureFileName": "auto_system_activity_movie_linkage_0_ui.png",
+        "size": "{2048,2048}",
+        "textureFileName": "auto_system_activity_movie_linkage_0_ui.png"
+    }
+}

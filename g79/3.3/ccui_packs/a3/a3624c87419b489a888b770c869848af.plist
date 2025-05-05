@@ -424,6 +424,11 @@
         "guid": "ui/gameplay_img_collvetion_bg", 
         "height": 630
     }, 
+    "img_activity_mcdonalds_linkage_bg.png": {
+        "width": 2440, 
+        "guid": "ui/img_activity_mcdonalds_linkage_bg", 
+        "height": 1440
+    }, 
     "dynamic_topup_1_ui.png": {
         "width": 2048, 
         "guid": "ui/dynamic_topup_1_ui", 
@@ -630,9 +635,9 @@
         "height": 1024
     }, 
     "auto_system_activity_calendar_0_ui.png": {
-        "width": 512, 
+        "width": 256, 
         "guid": "ui/auto_system_activity_calendar_0_ui", 
-        "height": 1024
+        "height": 2048
     }, 
     "auto_animation_vx_openbox_vx_openbox_rise_vx_bg_fire_2_0_ui.png": {
         "width": 1024, 
@@ -944,6 +949,11 @@
         "guid": "ui/openbox_middle_img_main_bg_202412", 
         "height": 1440
     }, 
+    "img_activity_calendar_task_pic.png": {
+        "width": 782, 
+        "guid": "ui/img_activity_calendar_task_pic", 
+        "height": 1090
+    }, 
     "auto_animation_vx_handbook_0_ui.png": {
         "width": 2048, 
         "guid": "ui/auto_animation_vx_handbook_0_ui", 
@@ -973,6 +983,11 @@
         "width": 1620, 
         "guid": "ui/friend_relation_bg_bar_special_1", 
         "height": 160
+    }, 
+    "auto_system_activity_mcdonalds_linkage_0_ui.png": {
+        "width": 512, 
+        "guid": "ui/auto_system_activity_mcdonalds_linkage_0_ui", 
+        "height": 1024
     }, 
     "chat_bg7.png": {
         "width": 598, 
@@ -1070,7 +1085,7 @@
         "height": 2048
     }, 
     "auto_system_ingame_0_ui.png": {
-        "width": 1024, 
+        "width": 2048, 
         "guid": "ui/auto_system_ingame_0_ui", 
         "height": 2048
     }, 
@@ -1308,6 +1323,11 @@
         "width": 1235, 
         "guid": "ui/handbook_quest_img_nml2_slc_s2", 
         "height": 213
+    }, 
+    "img_activity_movie_linkage_bg_main_new.png": {
+        "width": 2440, 
+        "guid": "ui/img_activity_movie_linkage_bg_main_new", 
+        "height": 1440
     }, 
     "auto_system_activity_activity_valentines_day_0_ui.png": {
         "width": 2048, 
@@ -2099,6 +2119,11 @@
         "guid": "ui/openbox_middle_img_main_bg", 
         "height": 1440
     }, 
+    "img_activity_calendar_task_bg_main.png": {
+        "width": 2440, 
+        "guid": "ui/img_activity_calendar_task_bg_main", 
+        "height": 1440
+    }, 
     "acivity_comeback_friend_bg.png": {
         "width": 1522, 
         "guid": "ui/acivity_comeback_friend_bg", 
@@ -2648,6 +2673,11 @@
         "width": 512, 
         "guid": "ui/auto_system_mail_0_ui", 
         "height": 1024
+    }, 
+    "img_activity_calendar_task_bg.png": {
+        "width": 820, 
+        "guid": "ui/img_activity_calendar_task_bg", 
+        "height": 762
     }, 
     "activity_armored_warriors_img_bg_popup.png": {
         "width": 1688, 
